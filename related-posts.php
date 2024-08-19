@@ -31,8 +31,8 @@ if ( ! class_exists( 'RLTP_Related_Posts_Main' ) ) {
 
 
 		function admin_script() {
-			wp_enqueue_script( 'rltf-jquery', plugins_url( '/assets/admin/js/scripts.js', __FILE__ ), array( 'jquery' ), STDF_PLUGIN_VERSION, true );
-			wp_enqueue_style( 'stdf-style-main', RLTP_PLUGIN_URL . 'assets/admin/css/style.css', array(), '1.0.0', 'all' );
+			wp_enqueue_script( 'rltf-jquery', plugins_url( '/assets/admin/js/scripts.js', __FILE__ ), array( 'jquery' ), RLTP_PLUGIN_VERSION, true );
+			wp_enqueue_style( 'rltf-style-main', RLTP_PLUGIN_URL . 'assets/admin/css/style.css', array(), '1.0.0', 'all' );
 		}
 
 
